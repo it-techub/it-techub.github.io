@@ -1,10 +1,10 @@
 # Site
-name: "한일석"
-title: "한일석's blog"
+name: "Albert Han"
+title: "Albert Han's blog"
 description: "My blog desc"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: ''
+baseurl: '/en'
 google_analytics: 'UA-46278016-1213'
 disqus: 'x2ever'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -13,9 +13,9 @@ permalink: /:title/
 
 # Authors
 authors:
-  한일석:
-    name: 한일석
-    display_name: 한일석
+  Albert Han:
+    name: Albert Han
+    display_name: Albert Han
     gravatar: 9041ca6978a33d305fbe126db8294298
     email: x2ever@naver.com
     web: https://github.com/x2ever
