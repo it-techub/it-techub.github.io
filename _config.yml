@@ -1,26 +1,26 @@
 # Site
-name: "한일석"
-title: "한일석's blog"
-description: "My blog desc"
+name: "IT Tech Hub"
+title: "IT Tech Hub"
+description: "it 기술을 다루는 블로그입니다."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ''
-google_analytics: 'UA-46278016-1213'
-disqus: 'x2ever'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+google_analytics: ''
+disqus: ''
+mailchimp-list: ''
 include: ["_pages"]
 permalink: /:title/
 
 # Authors
 authors:
-  한일석:
-    name: 한일석
+  IT Tech Hub:
+    name: IT Tech Hub
     display_name: 한일석
-    gravatar: 9041ca6978a33d305fbe126db8294298
-    email: x2ever@naver.com
-    web: https://github.com/x2ever
-    github: https://github.com/x2ever
-    description: "Test"
+    gravatar: ''
+    email: it.techub01@gmail.com
+    web: https://github.com/it-techub
+    github: https://github.com/it-techub
+    description: "it 기술을 다루는 사람입니다."
 
 # Plugins
 plugins:
@@ -54,8 +54,8 @@ kramdown:
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
 adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
