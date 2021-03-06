@@ -1,12 +1,35 @@
 <div class="share sticky-top sticky-top-offset">
-    <a href="https://coupa.ng/bSXDDH" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/07021a106e6c0cd05ab8326dcf9cbb97@2x.jpg" alt="제주 삼다수, 2L, 18개" width="120" height="240"></a>
+    <iframe id="ad" src="" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url"></iframe>
+        <script>
+        function shuffle(array) {
+          var currentIndex = array.length, temporaryValue, randomIndex;
+
+          // While there remain elements to shuffle...
+          while (0 !== currentIndex) {
+
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+          }
+
+          return array;
+        }
+
+        $.getJSON("/ad.json").then(function (data) {
+            data = shuffle(data)[0]
+            console.log(data);
+            let element1 = $('#ad');
+            element1.attr('src', data["src"]);
+        });
+
+    </script>
     {% if page.comments != false %}
     <div class="sep">
     </div>
-    <ul>
-        <li>
-        <a class="small smoothscroll" href="#disqus_thread"></a>
-        </li>
-    </ul>
     {% endif %}
 </div>

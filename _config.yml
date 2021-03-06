@@ -2,8 +2,8 @@
 name: "IT Tech Hub"
 title: "IT Tech Hub"
 description: "it 기술을 다루는 블로그입니다."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: 'logo.png'
+favicon: 'favicon.ico'
 baseurl: ''
 google_analytics: ''
 disqus: 'x2ever'
